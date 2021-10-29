@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <script>
+            function doThings(){
+                console.log("Inside doThings");
+            var client1 = {"clientName":"Ramesh","PAN_Number":"ABCD1254N","Balance":5000};
+            var client2 = {"clientName":"A","PAN_Number":"ABCD1254N","Balance":5000};
+            var client3 = {"clientName":"B","PAN_Number":"ABCD1254N","Balance":5000};
+            var client4 = {"clientName":"C","PAN_Number":"ABCD1254N","Balance":5000};
+
+            var clientsInfo = [client1,client2,client3,client4];
+                console.log(clientsInfo);
+            
+            for(c in clientsInfo)  // return index number
+            {
+                console.log(c);
+                console.log(clientsInfo[c].Balance+" - "+clientsInfo[c].PAN_Number);
+            }
+        }// end of doThings
+
+        
+   </script>
+</head>
+<body onload="doThings()">
+    
+</body>
+</html>

@@ -1,0 +1,34 @@
+<html>
+<head>
+    <script>
+        function doThings()
+        {
+            var country = document.getElementById("country").value;
+            if(country == "India")
+            {
+                console.log(country+" from South Asia");
+            }
+            else if(country == "USA")
+            {
+                console.log(country+" from America");
+            }
+            else if(country == "England")
+            {
+                console.log(country+" from Europe");
+            }
+            else{
+                //document.getElementById("errorMsg").innerHTML = "Not Registered!!!"
+                //document.write("Not Allowed");
+            }
+            
+        }
+    </script>
+</head>
+    <body>
+        Enter Country
+        <input type="text" id="country" onblur="doThings()"/> 
+        <input type="text" "/> 
+        <p id="errorMsg" style="color: red;font-style: italic;"></p>
+        
+    </body>
+</html>

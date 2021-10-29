@@ -1,0 +1,32 @@
+<HTML>
+	<HEAD>
+		<script>
+			function addElementTask()
+			{
+				var itemName = document.getElementById("itemName").value;
+				var itemList = document.getElementsByTagName("ul")[0];
+				
+				var newItem = document.createElement("li");
+			
+				// --- adding element ----
+				newItem.textContent = itemName+"";
+				itemList.appendChild(newItem);
+				
+				console.log("item added ...");
+			}
+			
+		</script>
+	</HEAD>
+		
+	<Body>
+		<form>
+			Item Name : <input type="text" id="itemName"><br/>
+			<input type="button" value="Add Item"onclick="addElementTask()"/><hr/>
+			<ul>
+				<li>Item - 1</li>
+				<li>Item - 2</li>
+				
+			</ul>
+		</form>
+	</Body>
+</HTML>

@@ -1,0 +1,65 @@
+h3{
+    color: blue;
+    font-size: medium;
+    font-style: normal;
+}
+
+
+.topic{
+
+     border-color: blue;
+     border: 5px;
+     border-style: solid;
+     border-radius: 60%;
+
+}
+
+.sub-heading
+{
+    color: blue;
+}
+
+div > p{
+    color:darkcyan;
+    text-decoration-line: underline overline;
+    text-decoration-style: solid;
+}
+
+input{
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    color: darkred;
+}
+
+input[type='email']{
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blueviolet
+}
+
+a:hover{
+   
+    background-color: burlywood;
+    padding: 8px;
+    color: rgb(70, 4, 4);
+    border: 2px;
+    border-style: solid;
+
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a:visited{
+    background-color:blueviolet;
+    padding: 8px;
+    color: burlywood;
+    border: 2px;
+    border-style: solid;
+
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a:active{
+    background-color: burlywood;
+    padding: 8px;
+    font-family: 'Times New Roman', Times, serif;
+}
